@@ -95,7 +95,7 @@ kubectl exec -it $(kubectl get po | grep -i nginx | awk '{print $1}' | head -n1)
 Olhe agora no Log Stream **alerts** do CloudWatch Logs.
 
 <p align="center"> 
-<img src="images/falco2.png">
+<img src="images/falco2.jpg">
 </p>
 
 Veja que o Falco detectou que um Shell foi iniciado no container NGINX.

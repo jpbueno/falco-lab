@@ -132,5 +132,5 @@ kubectl exec -it $(kubectl get po | grep -i nginx | awk '{print $1}' | head -n1)
 Volte ao Log Group do Falco e check se ele logou a execução do comando.
 
 <p align="center"> 
-<img src="images/falco03.png">
+<img src="images/falco03.jpg">
 </p>
